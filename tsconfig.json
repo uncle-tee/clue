@@ -7,14 +7,14 @@
 		"experimentalDecorators": true,
 		"target": "ES2018",
 		"sourceMap": true,
-		"outDir": "./dist",
+		"outDir": "./lib",
 		"baseUrl": "./",
 		"incremental": true,
 		"esModuleInterop": true
 	},
 	"exclude": [
 		"node_modules",
-		"dist",
+		"lib",
 		"*/__tests__",
 		"*/__mocks__",
 		"showcase"

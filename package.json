@@ -7,7 +7,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "clear": "rm -rf dist",
+    "clear": "rm -rf lib",
     "build:pre": "npm run test && npm run clear",
     "start:showcase": "nodemon showcase/index.ts",
     "postinstall": "npm run build",
