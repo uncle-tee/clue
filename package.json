@@ -1,0 +1,65 @@
+{
+  "name": "clue",
+  "version": "0.0.1",
+  "description": "A laravel-ignition like error page or Nest Js enlighten package but instead  gives a json of the stack strace that can be used for anything you like.",
+  "author": "Oluwatobi Adenekan",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "clear": "rm -rf dist",
+    "build:pre": "npm run test && npm run clear",
+    "start:showcase": "nodemon showcase/index.ts",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "stack-trace": "^0.0.10"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^7.6.17",
+    "@nestjs/core": "^6.11.8",
+    "@types/express": "^4.17.12",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.13.52",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.7",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.4",
+    "ts-jest": "^25.2.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^3.8.2",
+    "winston": "^3.3.3",
+    "winston-cloudwatch": "^2.5.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "error-page",
+    "error-handler",
+    "nestjs"
+    "strack-trace",
+    "error-log"
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "inspiration": [
+    "Laravel Ignition",
+    "Nest Js Enlighten"
+  ]
+}
