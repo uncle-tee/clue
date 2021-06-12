@@ -1,3 +1,3 @@
-import { StackTraceExceptionFilter } from './Filters/stackTraceExceptionFilter'
+import { StackTraceExceptionFilter } from './Filters/stackTraceExceptionFilter';
 
-export const ClueFilter: typeof StackTraceExceptionFilter = StackTraceExceptionFilter
+export const ClueFilter: typeof StackTraceExceptionFilter = StackTraceExceptionFilter;
