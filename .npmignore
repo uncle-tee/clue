@@ -1,4 +1,6 @@
 .github
-src
+src/__tests__
+src/__mocks__
 node_modules/
 .editorconfig
+showcase
