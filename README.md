@@ -40,7 +40,7 @@ const app = await NestFactory.create(ApplicationModule);
 await app.listen(3000);}bootstrap(); ```   
 ```
 ## Inspiration
-Straceback is higly inspired from  [Laravel Ignition](https://github.com/facade/ignition) ,  [Nest Js Enligten](https://github.com/facade/ignition) as well as how developers always find it dificult to trace production bugs on production environment.
+Straceback is higly inspired from  [Laravel Ignition](https://github.com/facade/ignition) ,  [Nest Js Enligten](https://github.com/facade/ignition) as well as how developers always find it difficult to trace production bugs on production environment.
 
 ## TODO
 - [x] Improve Test Tests
