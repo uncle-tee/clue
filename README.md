@@ -2,6 +2,7 @@
 <p align="center">  
 
 # Clue
+
 <a href="">  
 
 ### A  simple page to trace back exception errors on any environment  and also give the exact clue to the issue when they happen.
@@ -31,6 +32,7 @@ app.use(stackTraceLogger);
 The errorCalBack error parameter in the stacktrace will give you are nice error you can then stream to a logging platform like like AWS cloud watch for your use.
 
 #### Stack Trace Sample after streamlined to cloudwatch.
+![enter image description here](https://raw.githubusercontent.com/uncle-tee/clue/main/assests/aws-cloud-watch-log-sample.png)
 
 ```typescript  
 async function bootstrap() {  
