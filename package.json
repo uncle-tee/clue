@@ -12,6 +12,9 @@
     "start:showcase": "nodemon showcase/index.ts",
     "build": "tsc -p ."
   },
+  "files": [
+    "src/**/*"
+  ],
   "dependencies": {
     "dotenv": "^8.2.0",
     "stack-trace": "^0.0.10"
@@ -57,9 +60,5 @@
   "bugs": {
     "url": ""
   },
-  "homepage": "",
-  "inspiration": [
-    "Laravel Ignition",
-    "Nest Js Enlighten"
-  ]
+  "homepage": ""
 }
