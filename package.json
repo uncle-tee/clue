@@ -13,9 +13,6 @@
     "postinstall": "npm run build",
     "build": "tsc -p ."
   },
-  "files": [
-    "src/**/*"
-  ],
   "dependencies": {
     "dotenv": "^8.2.0",
     "stack-trace": "^0.0.10"
