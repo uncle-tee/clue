@@ -6,8 +6,8 @@ const logFormater = format.printf(({ level, message, timestamp, ...metadata }) =
 	return `[${level}] : ${message} \nAdditional Info: ${JSON.stringify(metadata)}}`;
 });
 
-const awsAccessKey = 'AKIA3YOHEQ6SIFUVEG7Q';
-const awsSecretKey = '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';
+const awsAccessKey = 'AKIA3YOHEQ6SIFUVG7Q';
+const awsSecretKey = 'zbLA9MrUlvCHZxjVF3QRNIbRVp9jABClG5hmg9y';
 
 export const logger = createLogger({
 	exitOnError: false,

@@ -1,6 +1,6 @@
 import express from 'express';
-import { errorStackTraceMiddleWare } from '../src/middle-ware/error-stack-trace.middleware';
-import { logger } from '../src/logger/logger';
+import { errorStackTraceMiddleWare } from '../src/MiddleWares/error-stack-trace.middleware';
+import { logger } from './logger/logger';
 
 const app = express();
 const PORT = 8000;

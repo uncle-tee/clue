@@ -4,7 +4,7 @@
   "description": "A laravel-ignition like error page or Nest Js enlighten package but instead  gives a json of the stack strace that can be used for anything you like.",
   "author": "Oluwatobi Adenekan",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest",
     "clear": "rm -rf lib",
