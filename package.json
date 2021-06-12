@@ -50,7 +50,7 @@
   "keywords": [
     "error-page",
     "error-handler",
-    "nestjs"
+    "nestjs",
     "strack-trace",
     "error-log"
   ],
