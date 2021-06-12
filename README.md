@@ -2,6 +2,7 @@
 <p align="center">  
 
 # Clue
+![Clue Image](https://raw.githubusercontent.com/uncle-tee/clue/main/assests/clue-image.jpeg)
 
 <a href="">  
 
