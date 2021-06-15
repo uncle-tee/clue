@@ -1,5 +1,5 @@
 import express from 'express';
-import { errorStackTraceMiddleWare } from '../src/MiddleWares/error-stack-trace.middleware';
+import { errorStackTraceMiddleWare } from '../src';
 import { logger } from './logger/logger';
 
 const app = express();

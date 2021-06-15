@@ -1,1 +1,2 @@
-export * from './lib';
+var libs = require('./lib');
+module['exports'] = libs;
